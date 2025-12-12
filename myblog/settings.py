@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'taggit',
 ]
 
 MIDDLEWARE = [
@@ -119,7 +120,8 @@ STATIC_URL = 'static/'
 
 # Конфігурація сервера електронної пошти
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'your_account@gmail.com'
-EMAIL_HOST_PASSWORD = 'your_password'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'babciavs@gmail.com'
+EMAIL_HOST_PASSWORD = 'vony iphp bmbi ahbd'
+EMAIL_PORT = 465
+EMAIL_USE_SSL = True
+EMAIL_TIMEOUT = 30
